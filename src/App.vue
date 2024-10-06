@@ -5,7 +5,7 @@ import MainComp from './components/MainComp.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="90" height="90" />
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
@@ -17,9 +17,15 @@ import MainComp from './components/MainComp.vue'
   </main>
 </template>
 
-<style scoped>
+<style>
 .logo {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 </style>

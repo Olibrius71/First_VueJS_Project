@@ -1,8 +1,48 @@
 .overall-container {
     width: 90%;
     background-color: dodgerblue;
+    height: fit-content;
 }
 
 h1 {
     margin: 2vh 0;
 }
+
+.overall-container .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1vh 0;
+}
+
+.information-container {
+    padding: 1vh 0;
+    height: fit-content;
+    background-color: darkblue;
+}
+
+    .information-container p {
+        font-size: 1.1rem;
+    }
+
+.list-container {
+    background-color: blue;
+    height: fit-content;
+}
+
+    .list-container ul {
+        list-style-type: armenian;
+    }
+
+.buttons-container {
+    flex-direction: row !important;
+    padding: 2vh;
+}
+
+    .buttons-container button {
+        width: 120px;
+        height: 40px;
+        padding: 2px 4px;
+        background-color: orangered;
+    }
